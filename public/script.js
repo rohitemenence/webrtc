@@ -21,7 +21,7 @@ showChat.addEventListener("click", () => {
 
 const user = prompt("Enter your name");
 
-var peer = new Peer({
+const peer = new Peer({
   host: '127.0.0.1',
   port: 3030,
   path: '/peerjs',
